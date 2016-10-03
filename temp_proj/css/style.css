@@ -1,5 +1,6 @@
 html {
 	background: Ivory;
+	font-family: Geneva, Tahoma, Verdana, sans-serif;  
 }
 
 nav {
@@ -18,9 +19,14 @@ li {
     color: DarkOrange;
     text-align: center;
 }
-
+/*why won't this border work?*/
 #pictureborder {
-	border: 2px DarkOrange;
+	border: 3px DarkOrange;
+}
+
+#catsbackground {
+	background-image: url("../images/black_cat_icon.gif"); 
+	background-repeat: repeat-y; background-position: top center;
 }
 
 .makeorange {
