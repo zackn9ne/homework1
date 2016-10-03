@@ -1,0 +1,28 @@
+html {
+	background: Ivory;
+}
+
+nav {
+	background: OldLace; 
+	float: left; 
+	width: 100%
+}
+
+li {
+	float: left;
+	margin: 5px;
+	background: NavajoWhite;
+}
+
+#articlename {
+    color: DarkOrange;
+    text-align: center;
+}
+
+#pictureborder {
+	border: 2px DarkOrange;
+}
+
+.makeorange {
+	color: DarkOrange;
+}
