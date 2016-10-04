@@ -15,18 +15,33 @@ li {
 	background: NavajoWhite;
 }
 
-#articlename {
-    color: DarkOrange;
-    text-align: center;
+div {
+	float: left;
 }
-/*why won't this border work?*/
-#pictureborder {
+
+p {
+	color: white;
+}
+
+img {
+	width: 300px;
 	border: 3px DarkOrange;
 }
 
-#catsbackground {
-	background-image: url("../images/black_cat_icon.gif"); 
-	background-repeat: repeat-y; background-position: top center;
+#pagename {
+    color: DarkOrange;
+    text-align: center;
+}
+/*#pictureborder {
+	border: 3px DarkOrange;
+}*/
+
+#bkgpic {
+	background-image: url("../images/koi-pond-bg.jpg");
+} 
+
+.topic {
+	color: white;
 }
 
 .makeorange {

@@ -1,0 +1,25 @@
+div {
+	border: solid;
+	border-radius: 10px;
+}
+
+/*googled this since "margin: 0 auto;" would not work with "display: inline-block;"*/
+body {
+    text-align: center;
+} 
+
+.onehundred {
+	background: DarkSeaGreen;
+}
+
+.feature {
+	background: Peru;
+	display: inline-block;
+	padding: 2em;
+	width: 300px;
+	-webkit-box-shadow: -6px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px 6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -6px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+
