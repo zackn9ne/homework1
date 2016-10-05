@@ -1,0 +1,34 @@
+html {
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+}
+
+body {
+	text-align: center;
+}
+
+nav {
+	background: MediumSeaGreen;
+	border: solid NavajoWhite 1px;
+	border-radius: 10px;
+	height: 70px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	border: solid Peru 1px;
+	border-radius: 10px;
+	background: Orange;
+	display: inline-block;
+		/*had trouble centering the list elements within nav bar when using margin and padding */
+	padding: 8px;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+a {
+	text-decoration: none;
+	color: darkgreen;
+}
