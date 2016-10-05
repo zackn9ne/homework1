@@ -2,10 +2,6 @@ html {
 	font-family: Tahoma,Verdana,Segoe,sans-serif;
 }
 
-body {
-	text-align: center;
-}
-
 nav {
 	background: MediumSeaGreen;
 	border: solid NavajoWhite 1px;
@@ -21,9 +17,9 @@ li {
 	border: solid Peru 1px;
 	border-radius: 10px;
 	background: Orange;
-	display: inline-block;
-		/*had trouble centering the list elements within nav bar when using margin and padding */
+	margin: 0 0 0 1em;	
 	padding: 8px;
+	float: left;
 	font-size: 15px;
 	font-weight: bolder;
 }
