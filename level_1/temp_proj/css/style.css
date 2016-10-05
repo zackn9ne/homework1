@@ -32,9 +32,9 @@ img {
     color: DarkOrange;
     text-align: center;
 }
-/*#pictureborder {
+.pictureborder {
 	border: 3px DarkOrange;
-}*/
+}
 
 #bkgpic {
 	background-image: url("../images/koi-pond-bg.jpg");
