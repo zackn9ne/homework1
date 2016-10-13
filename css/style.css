@@ -9,6 +9,14 @@ header {
 	background: #0035A5;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+    max-width: 580px;
+}
+
 footer {
 	background: #D7D7D7;
 	height: 300px;
@@ -30,11 +38,12 @@ footer {
 	float: left;
 	padding: 15px;
 	font-size: 18px;
-	color: white;
 }
 
-a:hover {color: black; }
-a:visited {color: NavajoWhite; }
+/* very specific for navs */
+#menu li a { 	color: white; }
+#menu li a:hover {color: black; }
+/*a:visited {color: NavajoWhite; }*/
 
 
 #menu li a {
@@ -49,16 +58,16 @@ a:visited {color: NavajoWhite; }
 }
 
 #featureWrapper {
-	text-align: center;
+	/* text-align: center; */
 	background-image: url(https://a.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/11/3038697-poster-p-1-why-business-books-are-blue-and-other-tricky-marketing-techniques.jpg);
 	width: 100%;
 	display: inline-block;
 }
 
 #topleft {
-	width: 500px;
-	height: 260px;
-	padding: 10px 10px 0 0;
+	/* width: 500px; */
+	/* height: 260px; */
+	/* padding: 10px 10px 0 0; */
 }
 
 #smallrectangles {
@@ -67,32 +76,34 @@ a:visited {color: NavajoWhite; }
 
 #topright {
 	display: block;
-	width: 250px;
-	height: 125px;
+	max-width: 250px;
+	/* height: 125px; */
 	padding: 10px 0 0 0;
 }
 
 #midright {
 	display: block;
 	width: 250px;
-	height: 125px;
+	/* height: 125px; */
 	padding: 10px 0 0 0;
 }
 
 #bottomleft {
 	display: inline-block;
 	width: 250px;
-	height: 260px;
+	/* height: 260px; */
 	padding: 10px 10px 10px 0;
 }
 
 #bottomright {
-	width: 500px;
+	/* width: 500px; */
 	height: 260px;
 	padding: 0 0 10px 0;
 }
 
-#container {
+.container,
+#bottomrow
+{
 	margin: 0 auto;
-	max-width: 765px;
+	max-width: 800px;
 }
