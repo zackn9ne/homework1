@@ -30,11 +30,12 @@ footer {
 	float: left;
 	padding: 15px;
 	font-size: 18px;
-	color: white;
 }
 
-a:hover {color: black; }
-a:visited {color: NavajoWhite; }
+#menu li a, a:visited {color: white;}
+
+#menu li a:hover {color: black; }
+
 
 
 #menu li a {
