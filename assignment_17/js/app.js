@@ -1,15 +1,22 @@
 console.log( "app.js was just hit" );
-var weeksInYear = 52
-var weeksElapsed = 41
-var remainingWeeks = weeksInYear - weeksElapsed + " more weeks "
-document.write (remainingWeeks);
 
-var greet = "hello "
-var who = "class "
-var greeting = greet + who
-document.write (greeting);
+var weeksInYear = 52;
+var weeksElapsed = 41;
+var remainingWeeks = weeksInYear - weeksElapsed + " more weeks";
 
-var one = 1
-var two = 2
-var three = one + two
-// document.write (<p>three</p>); "why does this break my code??? how would I use <p> or <div> here?"
+var greet = "hello ";
+var who = "class ";
+var greeting = greet + who;
+
+var one = 1;
+var two = 2;
+var result = one + two;
+
+document.addEventListener('DOMContentLoaded', function(){
+
+	document.getElementById("greeting") .innerHTML = greeting;
+	document.getElementById("weeks") .innerHTML = remainingWeeks;
+
+}, false); 
+
+document.write ('<h2>' + 'your answer is: ' + result + '</h2>');
