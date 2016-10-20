@@ -1,24 +1,28 @@
 console.log( "app.js was just hit" );
 
-var recipeBtnDiv = document.getElementById('recipeBtnDivId');
+document.addEventListener("DOMContentLoaded", function(event) {
 
-function makeCoffee(x) {
-console.log(document.getElementById('displayRecipeDivId').innerHTML = '<ul>' + '<li>' + 'add water and coffee grounds' + '</li>' + '<li>' + 'let it brew' + '<li>' + 'add sugar' + '</li>' + '<li>' + x + '</li>' + '<li>' + 'and stir' + '</li>' + '</ul>');
+    //DOM stuff
+    var recipeBtnDiv = document.getElementById('recipeBtnDivId');
+
+    //DOM thing
+    recipeBtnDiv.addEventListener("click", function(){recipeFunc()}, false);
+
+});
+
+var recipeFunc = function(){
+    makeCoffee('some alligator blood');
 }
 
-function recipeFunc(){
-makeCoffee('some alligator blood');
+
+var makeCoffee = function(secretIngredient) {
+    document.getElementById('displayRecipeDivId').innerHTML = '<ul>' + '<li>' + 'add water and coffee grounds' + '</li>' + '<li>' + 'let it brew' + '<li>' + 'add sugar' + '</li>' + '<li>' + secretIngredient + '</li>' + '<li>' + 'and stir' + '</li>' + '</ul>';
+
+console.log(secretIngredient);
 }
 
-recipeBtnDiv.addEventListener("click", function(){recipeFunc()}, false);
 
 
 
 
-// WORKED FINE IN JSBIN AND IN THE CONSOLE BUT NOT HERE. EVEN TRIED THIS:
 
-// document.addEventListener('DOMContentLoaded', function(){
-
-// recipeBtnDiv.addEventListener("click", function(){recipeFunc()}, false);
-
-// }, false); 
