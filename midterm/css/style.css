@@ -1,0 +1,46 @@
+li {
+  list-style: none;
+  width: 200px;
+  border: 1px solid DarkGray;
+  background: NavajoWhite;
+  text-align: center;
+}
+
+.container {
+  float: left;
+  word-wrap: break-word;
+  width: 270px;
+  height: 300px;
+  background: lightgray;
+  margin: 20px;
+  border: 1px dashed DarkGray;
+}
+
+.ptagActive {
+  display: block;
+  padding: 20px;
+}
+
+.ptag {
+  display:none;
+  padding: 20px;
+}
+
+.filler {
+  font-size: 14px;
+  opacity: .5;
+  text-align: center;
+}
+
+#btn {
+  display: block;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  width: 200px;
+  border: 1px solid DarkGray;
+  background: NavajoWhite;
+  text-align: center;
+}
